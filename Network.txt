@@ -1,0 +1,16 @@
+:authority: www.imdb.com
+:method: GET
+:path: /title/tt4633694/?ref_=nv_sr_2?ref_=nv_sr_2
+:scheme: https
+
+'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+'accept-encoding': 'gzip, deflate, br'
+'accept-language': 'en-US,en;q=0.9'
+'cache-control': 'no-cache'
+'cookie': 'uu=BCYuUDTNEZ2dhnJLPjTKv5yvBKQNtd0j2ULc8Ncgy2iBxHrpBaw-oM213gTfaYiOtOgXvNl74-sN%0D%0AV6FmGz6trJ5wurkIgJlGh4pcvR6fnMFwmXLutUjkle0MihrZYiC0ftgRnGj6jTLYh5Q9pnXlkYzX%0D%0AnQ%0D%0A; adblk=adblk_yes; csm-hit=tb:KTMQJ7K0HZN8N99N5BXW+b-KTMQJ7K0HZN8N99N5BXW|1573829842423&t:1573829842423&adb:adblk_yes; session-id=146-1798549-6247466; session-id-time=2204550089'
+'pragma': 'no-cache'
+'sec-fetch-mode': 'navigate'
+'sec-fetch-site': 'none'
+'sec-fetch-user': '?1'
+'upgrade-insecure-requests': '1'
+'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'

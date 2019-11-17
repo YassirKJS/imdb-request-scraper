@@ -1,6 +1,7 @@
 const request = require('request-promise');
 const cheerio = require('cheerio');
 const fs = require('fs');
+const { Parser } = require('json2csv');
 
 const URLS = [
   'https://www.imdb.com/title/tt4633694/?ref_=nv_sr_2?ref_=nv_sr_2',
@@ -51,7 +52,13 @@ const URLS = [
       poster: poster
     });
   }
+  // write data to csv then write it to csv file
+  const json2csvParser = new Parser();
+  const csv = json2csvParser.parse(moviesData);
+  fs.writeFileSync('./moviesdata.csv', csv, 'utf-8'); 
+
   // convert array into json string and save it to json file
-  fs.writeFileSync('./moviesdata.json', JSON.stringify(moviesData), 'utf-8'); 
-  console.log(moviesData);
+  //fs.writeFileSync('./moviesdata.json', JSON.stringify(moviesData), 'utf-8'); 
+
+  console.log(csv);
 })()

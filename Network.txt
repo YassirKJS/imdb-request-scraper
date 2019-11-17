@@ -14,3 +14,24 @@
 'sec-fetch-user': '?1'
 'upgrade-insecure-requests': '1'
 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+
+
+
+
+
+Promise
+--------
+
+try {
+  let test = await new Promise((resolve, reject) => {
+    let is_home = true,
+    if (is_home) {
+      resolve(true);    
+    }
+    else {
+      reject(false);
+    }
+  })
+} catch (error) {
+  console.log("error")
+}
